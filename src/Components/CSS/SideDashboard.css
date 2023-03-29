@@ -1,0 +1,15 @@
+.collapse:not(.show) {
+    display: block;
+}
+
+.navbar-vertical {
+    width: 250px;
+    position: fixed;
+    border-radius: 16px;
+}
+
+@media (max-width: 1200px) {
+    .sidenav {
+        width: 0px !important;
+    }
+}
